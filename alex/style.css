@@ -1,0 +1,66 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+
+/*header start*/
+header{	
+		padding: 10px 0;
+		border-bottom: 0.1px solid #F4015F;
+}
+.container{
+	overflow: hidden;
+	width: 90%;
+	/*border: 1px solid black;*/
+	margin: 0 auto;
+	
+}
+.logo{
+	float: left;
+	width: 10%;
+	/*border: 1px solid red*/
+
+}
+.logo a{
+
+}
+.logo a img{
+	width: 100%;
+
+
+}
+.menu{
+	float: right;
+	width: 40%;
+	/*border: 1px solid red;*/
+
+}
+.menu ul{
+	list-style: none;
+	/*overflow: hidden;*/
+	float: right;
+
+}
+.menu ul li{
+	float: left;
+
+}
+.menu ul li a{
+	text-decoration: none;
+	margin: 0 15px;
+	display: inline-block;
+	font-size: 20px;
+	color: red;
+	text-transform: capitalize;
+
+
+}
+.menu ul li:last-child a{
+	margin-right:0 ;
+}
+.menu ul li a:hover{
+	color: white;
+}
+
+/*hader end*/

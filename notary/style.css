@@ -1,0 +1,62 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+/*header start*/
+header{
+	/*border: 1px solid green ;*/
+	padding: 10px 0;
+	border-bottom: 1px solid #EBEDF1;
+}
+.container{
+	width: 70.5%;
+	/*border: 1px solid black;*/
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 20%;
+	/*border: 1px solid red;*/
+	float: left;
+
+}
+.logo a{
+
+}
+.logo a img{
+	width: 70%;
+
+}
+.menu{
+	width: 65%;
+	/*border: 1px solid red;*/
+	float: right;
+
+}
+.menu ul{
+	list-style: none;
+	float: right;
+
+}
+.menu ul li{
+	float: left;
+
+}
+.menu ul li a{
+	text-decoration: none;
+	margin: 0 7.2px;
+	display: inline-block;
+	font-size: ;
+	color: #888888;
+	text-transform: capitalize;
+
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	color: #DAA6AE;
+	background-color: #502C14;
+}
+/*header end*/
